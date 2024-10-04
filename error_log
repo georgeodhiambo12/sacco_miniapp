@@ -1,0 +1,5 @@
+[19-Sep-2024 08:20:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'tenderso_HOME.comments' doesn't exist in /home/tenderso/public_html/home/view_all_payments.php:185
+Stack trace:
+#0 /home/tenderso/public_html/home/view_all_payments.php(185): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in /home/tenderso/public_html/home/view_all_payments.php on line 185
